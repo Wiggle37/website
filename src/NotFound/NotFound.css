@@ -15,9 +15,9 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  color: #000;
-  background-color: #ff0000;
-  border: none;
+  color: #fff;
+  background: #333;
+  border: 3px solid black;
   padding: 15px 32px;
   border-radius: 5px;
   text-align: center;
