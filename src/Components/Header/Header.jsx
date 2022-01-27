@@ -13,8 +13,8 @@ export default function Header(props) {
         ))
       }
 
-      <a className='right' href='/login'>
-        Login
+      <a className='right' href='/account'>
+        Account
       </a>
     </div>
   );
