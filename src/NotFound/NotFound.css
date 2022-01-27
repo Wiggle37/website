@@ -10,14 +10,14 @@ p {
 
 button {
   margin: 0;
-  position: absolute;
-  top: 50%;
+  position: absolute;;
   left: 50%;
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
+  
   color: #fff;
   background: #333;
-  border: 3px solid black;
+  border: none;
   padding: 15px 32px;
   border-radius: 5px;
   text-align: center;

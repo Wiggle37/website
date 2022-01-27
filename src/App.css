@@ -1,11 +1,9 @@
 body {
   background-color: #12181b;
-  position: relative;
 }
 
 h1 {
   text-align: center;
-  align-content: center;
   color: white;
   font-family: 'Shadows Into Light', cursive;
 }
