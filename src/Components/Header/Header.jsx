@@ -1,17 +1,21 @@
 import './Header.css'
 
-export default function Header(items) {
-  const navigation = [...items.items]
+export default function Header(props) {
+  const navigation = [...props.items]
   
   return (
     <div className='Header'>
       {
         navigation.map((item) => (
-          <a href={item.path}>
+          <a className='left' href={item.path}>
               {item.name}
           </a>
         ))
       }
+
+      <a className='right' href='/login'>
+        Login
+      </a>
     </div>
   );
 }

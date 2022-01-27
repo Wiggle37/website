@@ -9,7 +9,6 @@ div {
 }
 
 .Header a {
-  float: left;
   color: green;
   text-align: center;
   padding: 10px;
@@ -22,4 +21,12 @@ div {
 .Header a:hover {
   background-color: #ddd;
   color: green;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
