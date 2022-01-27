@@ -12,10 +12,6 @@ export default function Header(props) {
           </a>
         ))
       }
-
-      <a className='right' href='/account'>
-        Account
-      </a>
     </div>
   );
 }
