@@ -10,15 +10,19 @@ function App() {
   return (
     <div className='App'>
       <BrowserRouter>
-        <Header items={[
-          { name: 'Home', path: '/' },
-          { name: 'About', path: '/about' }
-        ]}></Header>
+      
+        <Header items={
+          [
+            { name: 'Home', path: '/' },
+            { name: 'About', path: '/about' }
+          ]
+        }></Header>
+
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/#' element={<Home />} />
           <Route path='/about' element={<About />} />
-          
+
           <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
