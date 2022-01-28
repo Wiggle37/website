@@ -1,33 +1,32 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import './App.css';
-import Header from './Components/Header/Header';
-import Home from './Home/Home';
-import About from './About/About';
-import NotFound from './NotFound/NotFound';
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Home from "./Home/Home";
+import About from "./About/About";
+import NotFound from "./NotFound/NotFound";
 
 function App() {
-  return (
-    <div className='App'>
-      <BrowserRouter>
+    return (
+        <div className="App">
+            <BrowserRouter>
       
-        <Header items={
-          [
-            { name: 'Home', path: '/' },
-            { name: 'About', path: '/about' }
-          ]
-        }></Header>
+                <Header items={[
+                    { name: "Home", path: "/" },
+                    { name: "About", path: "/about" }
+                ]}></Header>
 
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/#' element={<Home />} />
-          <Route path='/about' element={<About />} />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/#" element={<Home />} />
+                    <Route path="/about" element={<About />} />
 
-          <Route path='*' element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
+            </BrowserRouter> 
+        </div>
+    );
 }
 
 export default App;
