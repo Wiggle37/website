@@ -19,7 +19,7 @@
     ],
     "rules": {
         "react/jsx-key": [
-            "enabled",
+            "false",
             {
                 "checkFragmentShorthand": "false"
             }
