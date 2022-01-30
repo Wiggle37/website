@@ -9,6 +9,8 @@ import About from "./Pages/About/About";
 import Terms from "./Pages/Terms/Terms"
 import NotFound from "./Pages/NotFound/NotFound";
 
+import Test from "./Pages/Test/Test"
+
 function App() {
     return (
         <div className="App">
@@ -26,6 +28,8 @@ function App() {
                     <Route path="/terms" element={<Terms />} />
 
                     <Route path="*" element={<NotFound />} />
+
+                    <Route path="/test" element={<Test />} />
                 </Routes>
 
                 <Footer></Footer>
