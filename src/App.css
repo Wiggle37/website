@@ -1,5 +1,9 @@
+:root {
+    --default-background: #12181b
+}
+
 body {
-    background-color: #12181b;
+    background-color: var(--default-background);
 }
 
 h1 {
@@ -17,7 +21,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 5px;
     background-color: #000;
 }
 
