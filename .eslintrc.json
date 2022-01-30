@@ -18,12 +18,6 @@
         "react"
     ],
     "rules": {
-        "react/jsx-key": [
-            "false",
-            {
-                "checkFragmentShorthand": "false"
-            }
-        ],
         "indent": [
             "error",
             4
