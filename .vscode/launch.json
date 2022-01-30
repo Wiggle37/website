@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Windows",
+            "request": "launch",
+            "type": "reactnative",
+            "cwd": "${workspaceFolder}",
+            "platform": "windows"
+        },
+        {
+            "name": "Run Windows",
+            "request": "launch",
+            "type": "reactnative",
+            "cwd": "${workspaceFolder}",
+            "enableDebug": false,
+            "platform": "windows"
+        }
+    ]
+}
