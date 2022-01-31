@@ -1,0 +1,18 @@
+.About ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+.About a {
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    transition-duration: .5s;
+}
+
+.About a:hover {
+    text-decoration: underline;
+    color: green
+}
