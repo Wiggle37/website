@@ -2,30 +2,22 @@
     background-color: #333;
     overflow: hidden;
     border-radius: 10px;
+
+    padding: 25px;
 }
 
 .Footer a {
+    float: left;
     color: white;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 10px;
     font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    transition-duration: .5s;
 }
 
 .Footer a:hover {
     text-decoration: underline;
     color: green;
-}
-
-.left {
-    float: left;
-}
-
-.center {
-    float: center;
-}
-
-.right {
-    float: right;
 }

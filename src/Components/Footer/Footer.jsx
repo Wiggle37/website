@@ -6,11 +6,11 @@ export default function Footer() {
     return (
         <div className="Footer">
             <footer>
-                <a className="left" href="/about">
-                    <p>About</p>
+                <a href="/about">
+                    About
                 </a>
-                <a className="left" href="/terms">
-                    <p>Terms</p>
+                <a href="/terms">
+                    Terms
                 </a>
             </footer>
         </div>
