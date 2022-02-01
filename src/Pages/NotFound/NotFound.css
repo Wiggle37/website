@@ -14,13 +14,13 @@ button {
    left: 50%;
    -ms-transform: translate(-50%, -50%);
    transform: translate(-50%, -50%);
-   
    color: #fff;
    background: #333;
    border: none;
    padding: 15px 32px;
    border-radius: 5px;
    text-align: center;
+   font-family: Shadows Into Light, cursive;
    font-size: 20px;
    display: inline-block;
    transition-duration: .5s;
