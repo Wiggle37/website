@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
-const dotenv = require("dotenv").config();
+require("dotenv").config();
 
-const client = new MongoClient("forgot to remove uri", {
+const client = new MongoClient(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
