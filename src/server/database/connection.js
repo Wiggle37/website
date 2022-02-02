@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 const dotenv = require("dotenv").config();
 
-const client = new MongoClient("mongodb+srv://admin:Admin-Login@website.aqznm.mongodb.net/website?retryWrites=true&w=majority", {
+const client = new MongoClient("forgot to remove uri", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
