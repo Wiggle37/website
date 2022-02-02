@@ -1,8 +1,11 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/", (req, res) => {
+router.delete("/", (req, res) => {
     res.send("es")
 });
 
-module.exports = router
+module.exports = {
+    name: "deleteAccount",
+    router: router
+}

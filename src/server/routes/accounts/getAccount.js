@@ -8,4 +8,7 @@ router.get("/:email", async (req, res) => {
     res.send(response)
 });
 
-module.exports = router;
+module.exports = {
+    name: "getAccount",
+    router: router
+};

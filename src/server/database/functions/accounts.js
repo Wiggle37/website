@@ -9,7 +9,7 @@ async function checkForUser(email) {
 async function initUser(data) {
     const database = await getDatabase();
 
-    return await database.insertOne({})
+    return await database.insertOne(data)
 }
 
 async function getUserData(email) {
