@@ -28,7 +28,7 @@ p {
    height: 75px;
 }
   
-button:hover {
+.button:hover {
    background-color: #4CAF50;
    color: white;
 }
