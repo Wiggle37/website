@@ -8,7 +8,7 @@ export default function NotFound() {
         <div className="NotFound">
             <h1>404 Not Found</h1>           
             <Link to="/">
-                <button>
+                <button className="button">
                     Go Back To Home
                 </button>
             </Link>
