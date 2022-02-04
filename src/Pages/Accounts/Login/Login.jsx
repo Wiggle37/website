@@ -15,15 +15,15 @@ export default function Login() {
         <div className="Login">
             <h1 className="title">Login</h1>
             <div className="loginBox">
-                <form action={() => Login()}>
+                <form>
                     <label htmlFor="email">Email: </label>
-                    <input type="email" name="email" placeholder="Email" required/>
+                    <input type="email" name="email" placeholder="Email" />
                     <br />
                     <label htmlFor="password">Password: </label>
-                    <input type="password" name="password" placeholder="Password" required/>
+                    <input type="password" name="password" placeholder="Password" />
                     <br />
 
-                    <button className="submitButton" type="submit">Submit</button>
+                    <button className="submitButton" onClick={() => Login()} type="submit">Submit</button>
                 </form>
             </div>
         </div>
