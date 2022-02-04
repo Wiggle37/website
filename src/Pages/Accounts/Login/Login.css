@@ -20,7 +20,7 @@ form > input {
     border-radius: 5px;
 }
 
-button {
+.submitButton {
     margin-top: 5px;
     text-align: center;
     font-size: 15px;
@@ -31,6 +31,6 @@ button {
     transition: .5s;
 }
 
-button:hover {
+.submitButton:hover {
     background-color: green;
 }
